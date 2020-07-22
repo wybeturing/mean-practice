@@ -3,6 +3,6 @@ const index = (req, res) => {
 };
 
 // Exposing controllers. Take note that in ES5, this should have been module.exports = {};
-export default {
+module.exports = {
     index
 };
