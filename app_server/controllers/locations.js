@@ -81,7 +81,10 @@ const locationInfo = (req, res) => {
 
 // GET the add review page
 const addReview = (req, res) => {
-    res.render('location-review-form', {title: 'Add review'});
+    res.render('location-review-form', {
+        title: 'Review Starcups on Loc8r',
+        pageHeader: {title: 'Review Starcups'}
+    });
 };
 
 // Exposing controllers. Take note that in ES5, this should have been module.exports = {};
