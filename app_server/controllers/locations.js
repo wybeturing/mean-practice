@@ -5,12 +5,12 @@ const homelist = (req, res) => {
 
 // GET the location page
 const locationInfo = (req, res) => {
-    res.render('index', {title: 'Location info'});
+    res.render('location-info', {title: 'Location info'});
 };
 
 // GET the add review page
 const addReview = (req, res) => {
-    res.render('index', {title: 'Location info'});
+    res.render('location-review-form', {title: 'Add review'});
 };
 
 // Exposing controllers. Take note that in ES5, this should have been module.exports = {};
